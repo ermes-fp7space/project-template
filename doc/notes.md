@@ -7,23 +7,23 @@ This is a working document to keep noets on setting up the development environme
 ### Sublime Text 3 Build 3065 (http://www.sublimetext.com/3)
 
 I installed hte following list of Sublime Text plugins or extension. It is good idea to follow the same order:
-	* [Package Control](https://packagecontrol.io/installation)
-	* linting: [SublimeLinter](http://www.sublimeLinter.com),  a linter framework for Sublime Text 3.
- 	* linting: [SublimeLinter-jshint](https://github.com/SublimeLinter/SublimeLinter-jshint), JS linter using jshint plugin for SublimeLinter
- 	* Linting: [SublimeLinter-json](https://github.com/SublimeLinter/SublimeLinter-json), JSON linter plugin for SublimeLinter
- 	* [All AutoComplete](https://github.com/alienhard/SublimeAllAutocomplete), extends the default autocomplete (words found in the current file) to find matches in all open files.
- 	* Markdown: [Markdownpreview](https://github.com/revolunet/sublimetext-markdown-preview)
- 	* Markdown:[MarkdownEditing](https://github.com/SublimeText-Markdown/MarkdownEditing)
- 	* Theme: [Cobalt2](https://github.com/wesbos/cobalt2)
+* [Package Control](https://packagecontrol.io/installation)
+* linting: [SublimeLinter](http://www.sublimeLinter.com),  a linter framework for Sublime Text 3.
+* linting: [SublimeLinter-jshint](https://github.com/SublimeLinter/SublimeLinter-jshint), JS linter using jshint plugin for SublimeLinter
+* Linting: [SublimeLinter-json](https://github.com/SublimeLinter/SublimeLinter-json), JSON linter plugin for SublimeLinter
+* [All AutoComplete](https://github.com/alienhard/SublimeAllAutocomplete), extends the default autocomplete (words found in the current file) to find matches in all open files.
+* Markdown: [Markdownpreview](https://github.com/revolunet/sublimetext-markdown-preview)
+* Markdown:[MarkdownEditing](https://github.com/SublimeText-Markdown/MarkdownEditing)
+* Theme: [Cobalt2](https://github.com/wesbos/cobalt2)
     
 Additional plugins that might be used in the future:     
- 	* Beautify: http://jsbeautifier.org, http://cssbeautifier.com
- 	* Miminifation:
- 	* Task automation: [Grunt](http://gruntjs.com)
- 	* GIT: SublimeGit Pluging (https://sublimegit.net/)
- 	* GIT: Git Gutter plugin (https://github.com/jisaacks/GitGutter) lets you see in Gutter (next to the numbers) which lines are changed from the last Git Commit
- 	* Coding: DocBlock plugin (https://github.com/spadgos/sublime-jsdocs)
- 	* Project Manager, https://github.com/randy3k/Project-Manager
+* Beautify: http://jsbeautifier.org, http://cssbeautifier.com
+* Miminifation:
+* Task automation: [Grunt](http://gruntjs.com)
+* GIT: SublimeGit Pluging (https://sublimegit.net/)
+* GIT: Git Gutter plugin (https://github.com/jisaacks/GitGutter) lets you see in Gutter (next to the numbers) which lines are changed from the last Git Commit
+* Coding: DocBlock plugin (https://github.com/spadgos/sublime-jsdocs)
+* Project Manager, https://github.com/randy3k/Project-Manager
 
 ### ArcGIS API for JavaScript
 
@@ -37,11 +37,11 @@ We use version [3.12](http://js.arcgis.com/3.12) of the ArcGIS API for JavaScrip
 We create a new GitHub user account for the ERMES project that's that used for the project web site: *ermes-fp7space*. [GitHub url](https://github.com/ermes-fp7space)
 
 We are going to create repos for individual source projects as needed. For example:
-    * `project-template`: basic project structure and folder organization. 
-    * `ermes-prototype`: hosts the application prototype. Experimentation purpose. it will be active until the end March 2015.
-    * `ermes-client`: web client application for production purpose Based on lesson learned during prototyping plus stakehodlers/pàrtner feedback. it will be launch after once `ermes-prototype` repo closes. 
-    * `timeseries-plots-js`: time series plot custom library (using D3) to create time series plots tied to pixel valeus of raster data. 
-    * ...
+* `project-template`: basic project structure and folder organization. 
+* `ermes-prototype`: hosts the application prototype. Experimentation purpose. it will be active until the end March 2015.
+* `ermes-client`: web client application for production purpose Based on lesson learned during prototyping plus stakehodlers/pàrtner feedback. it will be launch after once `ermes-prototype` repo closes. 
+* `timeseries-plots-js`: time series plot custom library (using D3) to create time series plots tied to pixel valeus of raster data. 
+* ...
 
 ## Useful articles, books, documentation, and links
 
@@ -68,4 +68,3 @@ Dojo:
 ESRI:
 * [ArcGIS API for JavaScript](https://developers.arcgis.com/javascript/)
 * [ESRI github](https://github.com/Esri)
-
