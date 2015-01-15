@@ -1,31 +1,61 @@
 <!doctype html>
 <html>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <title>Project template</title>
 
     <!-- Bootstrap style sheet -->
     <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
     <!-- Dojo Dijit theme: tundra, claro, nihilo, soria -->
-    <link rel="stylesheet" href="http://js.arcgis.com/3.12/dijit/themes/tundra/tundra.css">
+
+    <link rel="stylesheet" href="http://js.arcgis.com/3.12/dijit/themes/claro/claro.css">
     <!-- ESRI style sheets -->
     <link rel="stylesheet" href="http://js.arcgis.com/3.12/esri/css/esri.css">
     <!-- Custom style sheet -->
     <link rel="stylesheet" href="css/main.css" rel="stylesheet"/>
 
-
+    
+    <script type="text/javascript" src="http://js.arcgis.com/3.12"></script>
     <script>var dojoConfig = { parseOnLoad: true };</script>
-  </head>
-  <body>
-    <!-- Indicates reference HTML element for map --> 
-    <div id="map"></div>
-    <!-- Indicates reference HTML element for other tools and widgets -->
-    <div id="map-tools"></div>
+    <script type="text/javascript">    
+      dojo.require("dijit.layout.BorderContainer");
+      dojo.require("dijit.layout.ContentPane");
 
+      // when all classes have loaded... */
+      dojo.ready(function() {      
+        // don't need to do anything programmatically
+        // parseOnLoad and data-dojo-type does it declaratively
+      });
+    </script>
+  </head>
+  <body class="claro">
+    <!-- Layout based on https://developers.arcgis.com/javascript/jssamples/layout_MapContainerSplitLeft.html --> 
+    <div id="mainWindow" data-dojo-type="dijit.layout.BorderContainer" data-dojo-props="design:'headline', gutters:false" 
+      style="width:100%; height:100%;">
+
+      <!-- Header -->
+      <div id="header" data-dojo-type="dijit.layout.ContentPane" data-dojo-props="region:'top'">
+        This is the header section
+        <div id="subheader">subheader</div>
+      </div>
+
+      <!-- Left panel -->
+      <div id="leftPane" data-dojo-type="dijit.layout.ContentPane"  data-dojo-props="region:'left'" style="width:200px">
+        Content for the left panel 
+      </div>
+
+      <!-- Central panel. Indicates reference HTML element for map-->
+      <div id="map" data-dojo-type="dijit.layout.ContentPane" data-dojo-props="region:'center'"></div>
+
+      <!-- Footer -->
+      <div id="footer" data-dojo-type="dijit.layout.ContentPane" data-dojo-props="region:'bottom'">
+        this is the footer section
+      </div>
+
+    </div>
 
      <!-- Placed at the end of the document so the pages load faster -->
-    <script type="text/javascript" src="http://js.arcgis.com/3.12"></script>
     <script type="text/javascript" src="js/run.js"></script>
   </body>
 </html>

@@ -5,9 +5,7 @@ This is pretty much a dump of an internal todo-list to where the ERMES client ap
 ## Planned features (in no poarticulart order)
 
 Prioritized features:
-* Add html layout via layout Dijits, for instance:
-	* https://developers.arcgis.com/javascript/jssamples/layout_mapcontainersplitinthree.html
-	* https://developers.arcgis.com/javascript/jssamples/layout_MapContainerSplitLeft.html
+* Add html layout via layout Dijits, for instance [Map container split left](https://developers.arcgis.com/javascript/jssamples/layout_MapContainerSplitLeft.html)
 * Add basemap widget
 * Add basemap layer support
 * Set default map extent

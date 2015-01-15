@@ -6,10 +6,10 @@ This is a working document to keep noets on setting up the development environme
 
 ### Sublime Text 3 Build 3065 (http://www.sublimetext.com/3)
 
-I installed hte following list of Sublime Text plugins or extension. It is good idea to follow the same order:
+I've installed the following list of Sublime Text plugins or extension. It is good idea to follow the same order:
 * [Package Control](https://packagecontrol.io/installation)
-* linting: [SublimeLinter](http://www.sublimeLinter.com),  a linter framework for Sublime Text 3.
-* linting: [SublimeLinter-jshint](https://github.com/SublimeLinter/SublimeLinter-jshint), JS linter using jshint plugin for SublimeLinter
+* Linting: [SublimeLinter](http://www.sublimeLinter.com),  a linter framework for Sublime Text 3.
+* Linting: [SublimeLinter-jshint](https://github.com/SublimeLinter/SublimeLinter-jshint), JS linter using jshint plugin for SublimeLinter
 * Linting: [SublimeLinter-json](https://github.com/SublimeLinter/SublimeLinter-json), JSON linter plugin for SublimeLinter
 * [All AutoComplete](https://github.com/alienhard/SublimeAllAutocomplete), extends the default autocomplete (words found in the current file) to find matches in all open files.
 * Markdown: [Markdownpreview](https://github.com/revolunet/sublimetext-markdown-preview)
@@ -67,4 +67,5 @@ Dojo:
 
 ESRI:
 * [ArcGIS API for JavaScript](https://developers.arcgis.com/javascript/)
-* [ESRI github](https://github.com/Esri)
+* [ESRI github](https://github.com/Esri
+* JavaScript: The Good Parts book
