@@ -34,7 +34,7 @@ We use version [3.12](http://js.arcgis.com/3.12) of the ArcGIS API for JavaScrip
  * It supports Markdown format for documentation
  * It lets us to deploy a running demos using guthub servers
  
-We create a new GitHub user account for the ERMES project that's that used for the project web site: *ermes-fp7space*. pwd: fp7ermes. [GitHub url](https://github.com/ermes-fp7space)
+We create a new GitHub user account for the ERMES project that's that used for the project web site: *ermes-fp7space*. [GitHub url](https://github.com/ermes-fp7space)
 
 We are going to create repos for individual source projects as needed. For example:
     * `project-template`: basic project structure and folder organization. 
