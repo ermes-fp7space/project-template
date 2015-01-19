@@ -68,4 +68,4 @@ Dojo:
 ESRI:
 * [ArcGIS API for JavaScript](https://developers.arcgis.com/javascript/)
 * [ESRI github](https://github.com/Esri
-* JavaScript: The Good Parts book
+* *JavaScript: The Good Parts* book
