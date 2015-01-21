@@ -6,3 +6,5 @@ Basic project template that covers quite a bit of ground before starting to writ
 * using [wiki pages](https://github.com/ermes-fp7space/project-template/wiki) associated to the project for documentation, changelog, roadmap, etc. 
 * setting up a [GitHub Project Page](https://github.com/ermes-fp7space/project-template/wiki) for the project. 
 
+[Web site](http://ermes-fp7space.github.io/project-template/app)
+
