@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"load",
+				"loadServices"
+			],
+			[
+				"mu",
+				"municipalitiesLayerURL"
+			],
+			[
 				"style",
 				"stylesheet"
 			],
@@ -292,10 +300,6 @@
 				"jsonJournals"
 			],
 			[
-				"load",
-				"loadJournals"
-			],
-			[
 				"ta",
 				"target	Attr"
 			],
@@ -426,21 +430,27 @@
 	[
 		"/C/Users/cgranell/Data/MyCode/project-template",
 		"/C/Users/cgranell/Data/MyCode/project-template/app",
+		"/C/Users/cgranell/Data/MyCode/project-template/app/js",
+		"/C/Users/cgranell/Data/MyCode/project-template/app/js/controllers",
+		"/C/Users/cgranell/Data/MyCode/project-template/app/js/services",
 		"/C/Users/cgranell/Data/MyCode/project-template/doc"
 	],
 	"file_history":
 	[
-		"/C/Users/cgranell/Data/MyCode/project-template/README.md",
 		"/C/Users/cgranell/Data/MyCode/project-template/app/index.html",
-		"/C/Users/cgranell/Data/MyCode/project-template/doc/roadmap.md",
-		"/C/Users/cgranell/Data/MyCode/project-template/doc/notes.md",
-		"/C/Users/cgranell/Data/MyCode/project-template/app/js/main.js",
-		"/C/Users/cgranell/Data/MyCode/project-template/app/js/controllers/appcontroller.js",
 		"/C/Users/cgranell/Data/MyCode/project-template/app/js/controllers/mapcontroller.js",
+		"/C/Users/cgranell/Data/MyCode/project-template/app/js/services/mapservices.js",
+		"/C/Users/cgranell/Data/MyCode/project-template/app/js/main.js",
+		"/C/Users/cgranell/Data/MOOCs/ESRI/ES-02-ArcGIS-API-JavaScript/Results/Exercise03/Ex3_Query_Text.html",
+		"/C/Users/cgranell/Data/MOOCs/ESRI/ES-02-ArcGIS-API-JavaScript/Results/Exercise07/Ex07_ChainedOperations.html",
+		"/C/Users/cgranell/Data/MOOCs/ESRI/ES-02-ArcGIS-API-JavaScript/Results/Exercise02/Ex2_MyFirstMap.html",
+		"/C/Users/cgranell/Data/MyCode/project-template/README.md",
+		"/C/Users/cgranell/Data/MyCode/project-template/doc/notes.md",
+		"/C/Users/cgranell/Data/MyCode/project-template/doc/roadmap.md",
+		"/C/Users/cgranell/Data/MyCode/project-template/app/js/controllers/appcontroller.js",
 		"/C/Users/cgranell/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/Users/cgranell/AppData/Roaming/Sublime Text 3/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
 		"/C/Users/cgranell/AppData/Roaming/Sublime Text 3/Packages/User/MarkdownPreview.sublime-settings",
-		"/C/Users/cgranell/Data/MOOCs/ESRI/ES-02-ArcGIS-API-JavaScript/Results/Exercise02/Ex2_MyFirstMap.html",
 		"/C/Users/cgranell/Data/Sublime-Projects/project-template/doc/roadmap.md",
 		"/C/Users/cgranell/Data/Sublime-Projects/project-template/app/index.html",
 		"/C/Users/cgranell/Data/MOOCs/ESRI/ES-02-ArcGIS-API-JavaScript/Results/Exercise01/Ex1_MyTemplate.html",
