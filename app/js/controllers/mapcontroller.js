@@ -1,6 +1,6 @@
 /*
-  The mapcontroller.js file loads hte map with the specified options and 
-  uses a dojo/Deferred objetc to let us know when it is complete
+  The mapcontroller.js file loads the map with the specified options and 
+  uses a dojo/Deferred object to let us know when it is complete
 */
 
 /*global define */    // Jshint option to indicate global objects
@@ -29,12 +29,13 @@
       // public methods
       load: function() {
         var deferred = new Deferred();
-        var mapLoaded = lang.hitch(this, function() {
+        var layersAdded = lang.hitch(this, function() {
             deferred.resolve(this.map);
           });
 
         this.map = new Map(this.options.elem, this.options.mapOptions);
-        on.once(this.map, 'load', mapLoaded);
+        on.once(this.map, 'layers-added', layersAdded);
+        this.map.addLayers(this.options.layers);
         return deferred.promise;
       }
     }); 
