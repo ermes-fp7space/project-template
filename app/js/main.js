@@ -9,8 +9,9 @@
 
   require([
     'controllers/appcontroller',	// Loads application controller: appCtrl
+    'services/mapservices',       // Loads loading features from services  
     'dojo/domReady!'				      // Loads modules once page is loaded
-  ], function (appCtrl) {
+  ], function (appCtrl, mapServices) {
     console.debug('DEBUG - Starting application');
     // Initializes application controller with parameters
     appCtrl.init({
@@ -19,7 +20,9 @@
         basemap: 'gray',
         center: [9.403, 45.479],
         zoom: 8
-      }
+      },
+      // Add layers property to configuration file
+      layers: mapServices.loadServices()
     });
   });
 })();

@@ -11,15 +11,12 @@
   ], function(FeatureLayer) {
 
     function _loadServices(config) {
-      var layers = []
-      // census tract
-        , censusLayer = new FeatureLayer('http://services.arcgis.com/V6ZHFr6zdgNZuVG0/arcgis/rest/services/CensusLaborDemo/FeatureServer/1')
-      // feature renderer
-        , renderer = new SimpleRenderer(symbolUtil.renderSymbol());
+      var layers = [];
 
-      censusLayer.setRenderer(renderer);
-
-      layers.push(censusLayer);
+      var municipalitiesLayerURL = "http://ermes.dlsi.uji.es:6080/arcgis/rest/services/italy_vector_mxd/MapServer/1";
+      var municipalitiesLayer = new FeatureLayer(municipalitiesLayerURL);
+      
+      layers.push(municipalitiesLayer);
 
       return layers;
     }
