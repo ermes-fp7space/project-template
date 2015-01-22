@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"Ar",
+				"ArcGISDynamicMapServiceLayer"
+			],
+			[
 				"load",
 				"loadServices"
 			],
@@ -331,6 +335,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "prueba.html",
+			"settings":
+			{
+				"buffer_size": 2052,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -437,6 +449,9 @@
 	],
 	"file_history":
 	[
+		"/C/Users/cgranell/Data/MyCode/project-template/prueba.html.txt",
+		"/C/Users/cgranell/Data/prueba.html.txt",
+		"/C/Users/cgranell/Data/MyCode/project-template/README.md",
 		"/C/Users/cgranell/Data/MyCode/project-template/app/index.html",
 		"/C/Users/cgranell/Data/MyCode/project-template/app/js/controllers/mapcontroller.js",
 		"/C/Users/cgranell/Data/MyCode/project-template/app/js/services/mapservices.js",
@@ -444,7 +459,6 @@
 		"/C/Users/cgranell/Data/MOOCs/ESRI/ES-02-ArcGIS-API-JavaScript/Results/Exercise03/Ex3_Query_Text.html",
 		"/C/Users/cgranell/Data/MOOCs/ESRI/ES-02-ArcGIS-API-JavaScript/Results/Exercise07/Ex07_ChainedOperations.html",
 		"/C/Users/cgranell/Data/MOOCs/ESRI/ES-02-ArcGIS-API-JavaScript/Results/Exercise02/Ex2_MyFirstMap.html",
-		"/C/Users/cgranell/Data/MyCode/project-template/README.md",
 		"/C/Users/cgranell/Data/MyCode/project-template/doc/notes.md",
 		"/C/Users/cgranell/Data/MyCode/project-template/doc/roadmap.md",
 		"/C/Users/cgranell/Data/MyCode/project-template/app/js/controllers/appcontroller.js",
@@ -602,8 +616,39 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "prueba.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2052,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								801,
+								801
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

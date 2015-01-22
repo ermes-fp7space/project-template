@@ -18,6 +18,7 @@
       elem: 'map', 
       mapOptions: {
         basemap: 'gray',
+        autoResize: true,
         center: [9.403, 45.479],
         zoom: 8
       },
